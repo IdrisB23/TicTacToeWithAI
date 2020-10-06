@@ -1,6 +1,6 @@
-package tictactoe.Exceptions;
+package exceptions;
 
-import tictactoe.Exceptions.BoardException;
+import exceptions.BoardException;
 
 public class IllegalBoardEntryException extends BoardException {
     public IllegalBoardEntryException() {

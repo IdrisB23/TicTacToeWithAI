@@ -1,6 +1,6 @@
 package model;
 
-import tictactoe.Exceptions.OccupiedCellException;
+import exceptions.OccupiedCellException;
 
 import java.util.*;
 
@@ -23,9 +23,9 @@ public class HardAI extends Player {
                 try {
                     Board board_tmp = (Board)board.clone();
                     board_tmp.setEmptyCell(i);
-                    System.out.println("About to enter minmax");
+                    //System.out.println("About to enter minmax");
                     int score = minMax(board_tmp, move.getOther(), false, 0);
-                    System.out.println("Finished minmax with result " + score);
+                    //System.out.println("Finished minmax with result " + score);
                     indicesAndScores.put(i, score);
                 } catch (CloneNotSupportedException e) {
                     System.out.println("Clone Unsupported");

@@ -1,4 +1,4 @@
-package tictactoe.Exceptions;
+package exceptions;
 
 public abstract class BoardException extends Exception{
     public BoardException(String msg){

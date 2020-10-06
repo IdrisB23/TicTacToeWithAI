@@ -1,6 +1,6 @@
-package tictactoe.Exceptions;
+package exceptions;
 
-import tictactoe.Exceptions.BoardInitialisationException;
+import exceptions.BoardInitialisationException;
 
 public class BoardSizeException extends BoardInitialisationException {
     public BoardSizeException() {

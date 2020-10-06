@@ -1,9 +1,9 @@
 package model;
 
-import tictactoe.Exceptions.BoardInitialisationException;
-import tictactoe.Exceptions.BoardSizeException;
-import tictactoe.Exceptions.IllegalBoardEntryException;
-import tictactoe.Exceptions.OccupiedCellException;
+import exceptions.BoardInitialisationException;
+import exceptions.BoardSizeException;
+import exceptions.IllegalBoardEntryException;
+import exceptions.OccupiedCellException;
 
 import static model.XO.*;
 

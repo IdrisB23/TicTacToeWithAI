@@ -1,6 +1,6 @@
-package tictactoe.Exceptions;
+package exceptions;
 
-import tictactoe.Exceptions.BoardException;
+import exceptions.BoardException;
 
 public class OccupiedCellException extends BoardException {
     public OccupiedCellException(){

@@ -1,7 +1,7 @@
 package model;
 
 import controller.GamePrompter;
-import tictactoe.Exceptions.OccupiedCellException;
+import exceptions.OccupiedCellException;
 
 public class HumanPlayer extends Player {
     private GamePrompter gamePrompter;

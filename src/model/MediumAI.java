@@ -1,6 +1,6 @@
 package model;
 
-import tictactoe.Exceptions.OccupiedCellException;
+import exceptions.OccupiedCellException;
 
 public class MediumAI extends Player {
     EasyAI primitiveMe;

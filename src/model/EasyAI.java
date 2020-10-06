@@ -1,6 +1,6 @@
 package model;
 
-import tictactoe.Exceptions.OccupiedCellException;
+import exceptions.OccupiedCellException;
 
 import java.util.Random;
 
